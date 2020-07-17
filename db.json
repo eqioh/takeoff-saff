@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "fullName": "Bruce Wayne",
+      "company": "Wayne Enterprises",
+      "phoneNumber": "+1-213-452-1551",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fullName": "John Shepard",
+      "company": "Systems Alliance",
+      "phoneNumber": "+1-343-413-1566"
+    },
+    {
+      "fullName": "Walter White",
+      "company": "Meth Industries",
+      "phoneNumber": "+1-483-359-3566",
+      "id": "kcp7hosd"
+    }
+  ],
+  "users": [
+    {
+      "userName": "pavel",
+      "password": "password"
+    }
+  ]
+}

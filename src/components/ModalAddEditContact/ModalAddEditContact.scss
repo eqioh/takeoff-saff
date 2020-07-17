@@ -1,0 +1,79 @@
+.modal-add-edit-contact-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000009d;
+}
+
+.modal-add-edit-contact {
+  display: block;
+  width: 400px;
+  height: 320px;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  box-shadow: 5px 10px 20px 0px #0000004f;
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 16px;
+
+  &__item {
+    margin-bottom: 5px;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    color: #666666;
+    font-size: 15px;
+  }
+
+  &__label {
+    display: block;
+    color: #3b3b3b;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+
+  &__button {
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+
+    &--accept {
+      background-color: #4caf50;
+    }
+
+    &--cancel {
+      background-color: #f44336;
+    }
+  }
+}
+
+.incorrect-input {
+  box-shadow: 0px 0px 3px 1px #ff0000;
+}
